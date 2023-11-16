@@ -1,0 +1,18 @@
+Objašnjenje domaćeg zadatka:
+
+Anđela Čorbić
+
+broj_samoglasnika = 5
+broj_suglasnika = 7
+
+broj_slova_u_imenu = 6
+broj_slova_u_prezimenu = 6
+
+Za datu šemu izabran je PORT B jer je broj suglasnika u imenu i prezimenu veći od broja samoglasnika 
+i PIN0 jer je 12mod6 = 0.
+
+Prvih 6 taktova (broj slova u imenu) širina impulsa predstavlja broj slova u imenu u milisekundama što u ovom slučaju iznosi 6ms, a širina pauze predstavlja broj slova u prezimenu što iznosi 6ms.
+Kako je broj slova u imenu i prezimenu isti, u narednih 6 taktova (koliko iznosi broj slova u prezimenu) širina impulsa i pauze ostaju iste. 
+
+
+
